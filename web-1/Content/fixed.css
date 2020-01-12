@@ -1,7 +1,7 @@
 /*--- Extra Bootstrap Column Padding --*/
-[class*="col-"] {
+/*[class*="col-"] {
   padding: 1rem;
-}
+}*/
 
 /*--- Bootstrap Mobile Gutter Fix --*/
 .row, .container-fluid {

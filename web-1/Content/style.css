@@ -2,3 +2,24 @@
 .home-inner {
     background-image: url(~/image/image1.png);
 }
+
+html {
+    height:100%;
+}
+
+body {
+    background-color: #fcfbf9;
+    height:100%;
+}
+
+#tab1 {
+    background-image: url('../image/image4.png');
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color:white;
+}

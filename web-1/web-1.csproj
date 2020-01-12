@@ -82,12 +82,12 @@
     <Content Include="Web.config" />
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
-    <Content Include="Views\image\Image 6.png" />
-    <Content Include="Views\image\Image 10.png" />
     <Content Include="Views\image\image1.png" />
     <Content Include="Views\image\羡淳4.png" />
     <Content Include="Content\style.css" />
     <Content Include="Content\fixed.css" />
+    <Content Include="Views\image\image2.png" />
+    <Content Include="Views\image\image3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>

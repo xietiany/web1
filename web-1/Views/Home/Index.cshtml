@@ -8,11 +8,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="~/Content/style.css">
     <link rel="stylesheet" href="~/Content/fixed.css">
+
+    <!--- Script Source Files -->
+    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!--- End of Script Source Files -->
 </head>
 
 <body data-spy="scroll" data-target="#navbarResponsive">
     <!-- Start navigation section-->
-    <nav class="navbar navbar-expand-md navbar-dark navbar-inverse">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">SYNTECH</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
@@ -43,40 +51,71 @@
     </nav>
     <!-- End navigation section-->
     <!--- Start Content Section -->
-    <div class="home">
-        <div class="transbox">
-            <p>为每一位客户提供有<br>价值的生活方式</p>
-            <a class="btn btn-inverse-1 btn-lg" href="#">我们的公司</a>
+    <div class="landing">
+        <div class="home-wrap">
+            <div class="home-inner">
+            </div>
         </div>
     </div>
 
-    <!-- Start Second Part-->
-    <div class="part-2">
-        <div class="row align-items-center col-lg-9 justify-content-center">
-            <div class="col-lg-7">
-                <h1 class="Text1">SYNTECH</h1>
-                <h2 class="Text2">提供有价值的生活方式，致力<br>成为全球新时代生活方式有影<br>响的企业</h2>
-                <div class="container1">
-                    <p class="Text3">
-                        羡淳上海信息科技有限公司成立于2015年5月,本着“客户至上,质量为本”的原
-                        则,“新理念、新生活、新思维、新体验”的经营理念,带领旗下Cottage、REF、JEX等高潜力品
-                        牌聚焦中高端玩趣快消个护,为每一位客户提供有价值的生活方式,致力成为全球新时代生活方
-                        式有影响力企业。
-                    </p>
-                </div>
-             
-                <a class="Text4 btn-inverse-2 btn-outline-light btn-lg" href="#">关于我们</a>
+    <div class="row justify-content-center" style="height: 400px">
+        <div class="row col-lg-9 justify-content-center" id="tab1">
+            <div class="col-lg-9" style="padding-top:150px">
+                <h1 class="row">我们的愿景</h1>
+                <h3 class="row">每一天，都让世界充满香气</h3>
             </div>
-            <div class="col-lg-2">
-                <img class="image-fluid image2" src="../Views/image/image2.png" />
+            <div class="col-lg-2" style="padding-top:175px">
+                <button type="button" class="btn btn-dark btn-lg" style="width:80%; font-size:30px">了解更多</button>
             </div>
         </div>
     </div>
-    <!-- End Second Part-->
+
+    <div class="row justify-content-center" style="height: 500px">
+        <div class="row col-lg-9 justify-content-center" id="tab2">
+            <div class="col-lg-4 custom-card" style="background-color: #e7e4df">
+                <h1 class="row">每一天，都让世界充满香气</h1>
+                <h3 class="row">
+                    带领旗下品牌，以香氛为中心元素，与优秀的调香师合作，主打天然植物成分，不断研发创新美妆个护/AI智能香氛产品
+                </h3>
+            </div>
+            <div class="col-lg-4 custom-card" style="background-color: #e6e6e6">
+                <h1 class="row">每一天，都让世界充满香气</h1>
+                <h3 class="row">带领旗下品牌，以香氛为中心元素，与优秀的调香师合作，主打天然植物成分，不断研发创新美妆个护/AI智能香氛产品</h3>
+            </div>
+            <div class="col-lg-4 custom-card" style="background-color: #f8f4e9">
+                <h1 class="row">每一天，都让世界充满香气</h1>
+                <h3 class="row">带领旗下品牌，以香氛为中心元素，与优秀的调香师合作，主打天然植物成分，不断研发创新美妆个护/AI智能香氛产品</h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="row justify-content-center" style="height: 1100px">
+        <div class="row col-lg-9 justify-content-center" id="tab3">
+            <div class="col-lg-5 custom-card" style="background-color: #e6e6e6;">
+                <h1 class="row">公司使命</h1>
+                <h3 class="row" style="margin-bottom:50px">
+                    以顾客为根本，定目标、重执行、析结果，增强企业管控能力，追求更高的顾客满意度；以市场为导向，信息化、创新化、多元化，持续增强企业盈利利能力，追求更高的企业价值；以创新为动力，以实业为基础，以资本为手段，实现新理念、新生活、新思维、新体验，纳百川之势，兴恒久伟业。
+                </h3>
+                <button type="button" class="btn btn-dark btn-lg" style="width:60%; font-size:30px">了解更多</button>
+            </div>
+            <div class="col-lg-7" style="background-color: #e6e6e6" id="image6">
+            </div>
+        </div>
+    </div>
+
     <!--- End Content Section -->
-    <!--- Script Source Files -->
-    <script src="https://use.fontawesome.com/releases/v5.5.0/js/all.js"></script>
-    <!--- End of Script Source Files -->
+    <!--- Start Footer Section -->
+    <!-- Footer -->
+    <footer class="page-footer font-small bg-dark pt-4">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center" style="color:white; padding-bottom:20px">
+            © 2020 Copyright: SYNTECH
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+    <!--- End Footer Section -->
 
 </body>
 </html>

@@ -28,6 +28,24 @@ body {
     padding:0;
 }
 
+#tab3 {
+    padding-left:0;
+    padding-right:0;
+    padding-bottom:200px;
+    padding-top: 200px;
+}
+
+#image6 {
+    background-image: url('../image/Image 6.png');
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
 .custom-card {
     padding-top:100px;
     padding-left:100px;

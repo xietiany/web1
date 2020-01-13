@@ -31,7 +31,7 @@ margin-right: 0px!important;
   height: 30%;
 }
 .home-inner {
-  position: absolute;
+  position: relative;
   display: table;
   top: 0;
   left: 0;

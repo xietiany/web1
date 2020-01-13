@@ -4,3 +4,9 @@
 
 /.vs
 /Backup
+/packages
+/web-1/bin
+/web-1/obj/Debug
+/web-1.Tests/obj
+/web-1/web-1.csproj.user
+/UpgradeLog.htm
